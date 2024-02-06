@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentine</title>
+  </head>
+  <body>
+    <audio id="myAudio" autoplay>
+  <source src="valentine.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+    <div class="main-box">
+      <div
+        class="tenor-gif-embed"
+        data-postid="12415385208007940205"
+        data-share-method="host"
+        data-aspect-ratio="1"
+        data-width="100%"
+      >
+        <a
+          href="https://tenor.com/view/bear-teddy-bear-love-i-love-you-heart-gif-12415385208007940205"
+          >Bear Teddy Bear GIF</a
+        >from <a href="https://tenor.com/search/bear-gifs">Bear GIFs</a>
+      </div>
+      <script
+        type="text/javascript"
+        async
+        src="https://tenor.com/embed.js"
+      ></script>
+      <h1 id="main-text">Will you be my valentine ?</h3>
+      <h1 id="displayText" style="display: none; width: 25rem; text-align: center;">Yayy!!!</h1>
+      <button id="yes" onclick="hideButtonsAndShowText()">Yes</button>
+      <button id="no" onclick="increaseButtonSize('yes')">No</button>
+    </div>
+  </body>
+  <script src="code.js"></script>
+</html>

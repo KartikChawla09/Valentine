@@ -1,0 +1,23 @@
+.main-box {
+  position: absolute;
+  left: 37.5%;
+  top: 0%;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+  transition: font-size 0s ease;
+  border-radius: 5%;
+  color: white;
+}
+#yes {
+  position: absolute;
+  background-color: rgb(72, 238, 72);
+  right: 20rem;
+}
+
+#no {
+  position: absolute;
+  left: 20rem;
+  background-color: red;
+}
